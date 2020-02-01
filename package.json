@@ -6,12 +6,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "parcel build ./assets/index.html --public-url ./",
-    "watch": "parcel watch ./assets/index.html --public-url ./"
+    "watch": "parcel watch ./games/success-roll-test/index.html --public-url ./"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "parcel-plugin-clean-dist": "^0.0.6",
+    "parcel-plugin-clean-dist": "0.0.6",
     "victor": "^1.1.0"
   }
 }
