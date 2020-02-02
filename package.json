@@ -1,16 +1,15 @@
 {
-  "name": "g2",
+  "name": "gurps-games",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Sergey Pestov <pestov-sa@yandex.ru>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "watch": "parcel watch ./games/success-roll-test/index.html --public-url ./"
+    "watch": "parcel watch ./src/games/success-roll-test/index.html --out-dir ./src/games/success-roll-test/dist/ --public-url ./"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "parcel-plugin-clean-dist": "0.0.6",
-    "victor": "^1.1.0"
+    "parcel-plugin-clean-dist": "^0.0.6"
   }
 }

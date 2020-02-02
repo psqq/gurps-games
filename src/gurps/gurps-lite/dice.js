@@ -12,6 +12,9 @@ export function roll(n = 1, adds = 0) {
     return Math.floor(a + Math.random() * (b - a + 1)) + adds;
 }
 
+/**
+ * @param {number} effectiveSkill 
+ */
 export function successRoll(effectiveSkill) {
     const d3 = roll(3);
     if (d3 == 3 || d3 == 4) {
